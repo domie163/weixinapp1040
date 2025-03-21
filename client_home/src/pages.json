@@ -1,0 +1,457 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		},
+										// 商品信息列表路由
+		{
+			"path": "pages/product_information/list",
+			"style": {
+				"navigationBarTitleText": "商品信息列表"
+			}
+		},
+				// 商品信息详情路由
+		{
+			"path": "pages/product_information/details",
+			"style": {
+				"navigationBarTitleText": "商品信息"
+			}
+		},
+							// 预约订单编辑路由
+		{
+			"path": "pages/appointment_order/edit",
+			"style": {
+				"navigationBarTitleText": "预约订单"
+			}
+		},
+				// 预约订单列表路由
+		{
+			"path": "pages/appointment_order/list",
+			"style": {
+				"navigationBarTitleText": "预约订单列表"
+			}
+		},
+				// 预约订单详情路由
+		{
+			"path": "pages/appointment_order/details",
+			"style": {
+				"navigationBarTitleText": "预约订单"
+			}
+		},
+					// 收货记录列表路由
+		{
+			"path": "pages/receiving_records/list",
+			"style": {
+				"navigationBarTitleText": "收货记录列表"
+			}
+		},
+				// 收货记录详情路由
+		{
+			"path": "pages/receiving_records/details",
+			"style": {
+				"navigationBarTitleText": "收货记录"
+			}
+		},
+					// 售后申请列表路由
+		{
+			"path": "pages/after_sales_application/list",
+			"style": {
+				"navigationBarTitleText": "售后申请列表"
+			}
+		},
+				// 售后申请详情路由
+		{
+			"path": "pages/after_sales_application/details",
+			"style": {
+				"navigationBarTitleText": "售后申请"
+			}
+		},
+							// 直播预约编辑路由
+		{
+			"path": "pages/live_booking/edit",
+			"style": {
+				"navigationBarTitleText": "直播预约"
+			}
+		},
+				// 直播预约列表路由
+		{
+			"path": "pages/live_booking/list",
+			"style": {
+				"navigationBarTitleText": "直播预约列表"
+			}
+		},
+				// 直播预约详情路由
+		{
+			"path": "pages/live_booking/details",
+			"style": {
+				"navigationBarTitleText": "直播预约"
+			}
+		},
+				// 咨询记录编辑路由
+		{
+			"path": "pages/consultation_records/edit",
+			"style": {
+				"navigationBarTitleText": "咨询记录"
+			}
+		},
+				// 咨询记录列表路由
+		{
+			"path": "pages/consultation_records/list",
+			"style": {
+				"navigationBarTitleText": "咨询记录列表"
+			}
+		},
+				// 咨询记录详情路由
+		{
+			"path": "pages/consultation_records/details",
+			"style": {
+				"navigationBarTitleText": "咨询记录"
+			}
+		},
+								// 取消订单列表路由
+		{
+			"path": "pages/cancellation_of_order/list",
+			"style": {
+				"navigationBarTitleText": "取消订单列表"
+			}
+		},
+				// 取消订单详情路由
+		{
+			"path": "pages/cancellation_of_order/details",
+			"style": {
+				"navigationBarTitleText": "取消订单"
+			}
+		},
+					// 取消确认列表路由
+		{
+			"path": "pages/cancel_confirmation/list",
+			"style": {
+				"navigationBarTitleText": "取消确认列表"
+			}
+		},
+				// 取消确认详情路由
+		{
+			"path": "pages/cancel_confirmation/details",
+			"style": {
+				"navigationBarTitleText": "取消确认"
+			}
+		},
+				// 供货商列表路由
+		{
+			"path": "pages/supplier/table",
+			"style": {
+				"navigationBarTitleText": "供货商列表"
+			}
+		},
+		// 供货商编辑路由
+		{
+			"path": "pages/supplier/view",
+			"style": {
+				"navigationBarTitleText": "供货商详情"
+			}
+		},
+				// 普通用户列表路由
+		{
+			"path": "pages/ordinary_users/table",
+			"style": {
+				"navigationBarTitleText": "普通用户列表"
+			}
+		},
+		// 普通用户编辑路由
+		{
+			"path": "pages/ordinary_users/view",
+			"style": {
+				"navigationBarTitleText": "普通用户详情"
+			}
+		},
+				// 商品信息列表路由
+		{
+			"path": "pages/product_information/table",
+			"style": {
+				"navigationBarTitleText": "商品信息列表"
+			}
+		},
+		// 商品信息编辑路由
+		{
+			"path": "pages/product_information/view",
+			"style": {
+				"navigationBarTitleText": "商品信息详情"
+			}
+		},
+				// 商品类型列表路由
+		{
+			"path": "pages/product_type/table",
+			"style": {
+				"navigationBarTitleText": "商品类型列表"
+			}
+		},
+		// 商品类型编辑路由
+		{
+			"path": "pages/product_type/view",
+			"style": {
+				"navigationBarTitleText": "商品类型详情"
+			}
+		},
+				// 预约订单列表路由
+		{
+			"path": "pages/appointment_order/table",
+			"style": {
+				"navigationBarTitleText": "预约订单列表"
+			}
+		},
+		// 预约订单编辑路由
+		{
+			"path": "pages/appointment_order/view",
+			"style": {
+				"navigationBarTitleText": "预约订单详情"
+			}
+		},
+				// 收货记录列表路由
+		{
+			"path": "pages/receiving_records/table",
+			"style": {
+				"navigationBarTitleText": "收货记录列表"
+			}
+		},
+		// 收货记录编辑路由
+		{
+			"path": "pages/receiving_records/view",
+			"style": {
+				"navigationBarTitleText": "收货记录详情"
+			}
+		},
+				// 售后申请列表路由
+		{
+			"path": "pages/after_sales_application/table",
+			"style": {
+				"navigationBarTitleText": "售后申请列表"
+			}
+		},
+		// 售后申请编辑路由
+		{
+			"path": "pages/after_sales_application/view",
+			"style": {
+				"navigationBarTitleText": "售后申请详情"
+			}
+		},
+				// 售后结果列表路由
+		{
+			"path": "pages/after_sales_results/table",
+			"style": {
+				"navigationBarTitleText": "售后结果列表"
+			}
+		},
+		// 售后结果编辑路由
+		{
+			"path": "pages/after_sales_results/view",
+			"style": {
+				"navigationBarTitleText": "售后结果详情"
+			}
+		},
+				// 直播预约列表路由
+		{
+			"path": "pages/live_booking/table",
+			"style": {
+				"navigationBarTitleText": "直播预约列表"
+			}
+		},
+		// 直播预约编辑路由
+		{
+			"path": "pages/live_booking/view",
+			"style": {
+				"navigationBarTitleText": "直播预约详情"
+			}
+		},
+				// 咨询记录列表路由
+		{
+			"path": "pages/consultation_records/table",
+			"style": {
+				"navigationBarTitleText": "咨询记录列表"
+			}
+		},
+		// 咨询记录编辑路由
+		{
+			"path": "pages/consultation_records/view",
+			"style": {
+				"navigationBarTitleText": "咨询记录详情"
+			}
+		},
+				// 回复记录列表路由
+		{
+			"path": "pages/reply_record/table",
+			"style": {
+				"navigationBarTitleText": "回复记录列表"
+			}
+		},
+		// 回复记录编辑路由
+		{
+			"path": "pages/reply_record/view",
+			"style": {
+				"navigationBarTitleText": "回复记录详情"
+			}
+		},
+				// 取消订单列表路由
+		{
+			"path": "pages/cancellation_of_order/table",
+			"style": {
+				"navigationBarTitleText": "取消订单列表"
+			}
+		},
+		// 取消订单编辑路由
+		{
+			"path": "pages/cancellation_of_order/view",
+			"style": {
+				"navigationBarTitleText": "取消订单详情"
+			}
+		},
+				// 取消确认列表路由
+		{
+			"path": "pages/cancel_confirmation/table",
+			"style": {
+				"navigationBarTitleText": "取消确认列表"
+			}
+		},
+		// 取消确认编辑路由
+		{
+			"path": "pages/cancel_confirmation/view",
+			"style": {
+				"navigationBarTitleText": "取消确认详情"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}
